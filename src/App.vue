@@ -1,2 +1,3 @@
 <template>
+    {{ Date.now() }}
 </template>
