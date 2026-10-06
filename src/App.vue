@@ -1,3 +1,7 @@
 <template>
-    {{ Date.now() }}
+    {{ date }}
 </template>
+
+<script setup>
+    let date = new Date().toLocaleDateString('ru-RU');
+</script>
